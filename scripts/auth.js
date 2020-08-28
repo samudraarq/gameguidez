@@ -9,6 +9,7 @@ auth.onAuthStateChanged((user) => {
         setupUI(user);
       });
   } else {
+    // if there is no user sign in
     setupGuides([]);
     setupUI();
   }
