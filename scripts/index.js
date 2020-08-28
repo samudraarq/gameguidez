@@ -31,6 +31,7 @@ const setupGuides = (data) => {
 
     guideList.innerHTML = html;
   } else {
+    // if no one logged in
     guideList.innerHTML = `<h5 class="center-align">Login to view guides</h5>`;
   }
 };
