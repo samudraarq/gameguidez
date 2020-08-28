@@ -16,6 +16,7 @@ const setupUI = (user) => {
 
 // setup guides
 const setupGuides = (data) => {
+  // getting datas and make it dynamic
   if (data.length) {
     let html = "";
     data.forEach((doc) => {
