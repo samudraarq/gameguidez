@@ -32,6 +32,7 @@ const setupGuides = (data) => {
 
     guideList.innerHTML = html;
   } else {
+    // if the user sign out
     guideList.innerHTML = `<h5 class="center-align">Login to view guides</h5>`;
   }
 };
